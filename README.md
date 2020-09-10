@@ -1,5 +1,5 @@
-# GroupProject_StayHome_UI
-This is the UI code for group `StayHome`, for API code and project Readme, visit: <br> https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_StayHome_API
+# UI Repo
+This is the UI code for music website, for API code and project Readme, visit: <br> https://github.com/kakatcy/music_website_api
 
 
 ## Notes:
