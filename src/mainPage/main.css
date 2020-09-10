@@ -1,0 +1,53 @@
+.search {
+  top:100px;
+  bottom:100px;
+  width: 70%;
+  margin: 2%;
+}
+
+.search h1 {
+  font-size: 2em;
+}
+
+.form-inline {
+  display: inline;
+}
+
+.form-inline .form-control {
+  width: 80%;
+}
+
+.search-btn{
+  font-size: 0.9em;
+  margin-left: 2%;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .form-inline .form-control {
+    width: 70%;
+    font-size: 0.7em;
+  }
+
+  .search h1 {
+    font-size: 1.2em;
+  }
+
+  .search{
+    width: 80%;
+  }
+
+
+}
+
+@media (max-width: 576px) {
+
+  .search-btn{
+    font-size: 0.8em;
+    margin-left: 2%;
+    cursor: pointer;
+  }
+}
+
+
+/* #66696d */

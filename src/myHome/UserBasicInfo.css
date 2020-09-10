@@ -1,0 +1,38 @@
+.userinfo{
+  top: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+}
+
+.round_icon{
+  width: 20%;
+  height: 20%;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-right: 50px;
+}
+
+.username{
+  font-size: 1.8em;
+}
+
+.details{
+  font-size: 0.8em;
+}
+
+@media (max-width: 768px) {
+  .userinfo{
+    top: 60px;
+  }
+  .username{
+    font-size: 1em;
+  }
+
+  .details{
+    font-size: 0.6em;
+  }
+}

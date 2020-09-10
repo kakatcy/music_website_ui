@@ -1,0 +1,33 @@
+.playlists{
+  margin: 2%;
+}
+
+.title{
+  text-align: left;
+}
+
+.playlist{
+  display: flex;
+  padding-top: 3%;
+}
+
+.playlistPic{
+  width: 10%;
+  height: 10%;
+}
+
+.playlistName{
+  width: 10%;
+  font-size: 1.3em;
+  margin: 0 30%;
+}
+
+@media (max-width: 768px) {
+  .title{
+    font-size: 1em;
+  }
+
+  .playlistName{
+    font-size: 0.8em;
+  }
+}

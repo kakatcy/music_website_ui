@@ -1,0 +1,20 @@
+.volumeWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.volumeBar {
+  width: 50px;
+  position: relative;
+  background-color: gray;
+  height: 4px;
+  z-index: 9;
+  overflow: visible;
+  display: flex;
+}
+
+.volumeBar:hover {
+  cursor: pointer;
+}

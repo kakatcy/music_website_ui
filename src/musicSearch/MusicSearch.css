@@ -1,0 +1,42 @@
+.musicCard{
+  width: 170px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.musicImg{
+  width: 168px;
+  height: 94px;
+}
+
+.musicSearch{
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+
+@media (max-width: 768px) {
+  .musicSearch{
+    margin-top: 100px;
+    margin-bottom: 250px;
+  }
+
+  .subtitle{
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 576px) {
+  .musicCard{
+    width: 110px;
+    margin-bottom: 3px;
+  }
+  
+  .musicImg{
+    width: 107px;
+    height: 60px;
+  }
+
+  .subtitle{
+    font-size: 0.5em;
+  }
+}

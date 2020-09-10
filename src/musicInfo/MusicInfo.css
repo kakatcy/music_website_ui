@@ -1,0 +1,42 @@
+.musicImg{
+  width: 336px;
+  height: 188px;
+}
+
+.musicInfoBtn{
+  background-color: #464f61;
+  color: white;
+  border-color: #464f61;
+  width: 140px;
+  margin:0 5px;
+}
+
+.ddAddtoPlaylist{
+  border-color: #464f61;
+  background-color: #464f61;
+  width: 140px;
+  margin:0 5px;
+}
+
+.ddplaylist{
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+@media (max-width: 768px) {
+  .musicImg{
+    width: 236px;
+    height: 118px;
+  }
+
+  .musicInfoBtn{
+    font-size: 0.4em;
+    width: 90px;
+  }
+  
+  .ddAddtoPlaylist{
+    font-size: 0.4em;
+    width: 90px;
+  }
+}
+
